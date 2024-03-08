@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.columns{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    
+}
+.price{
+    list-style-type: none;
+    text-align: center;
+    border: 1px solid black;
+    margin: 1px solid black;
+    padding: 0%;
+}
+.header{
+    text-align: center;
+    background-color: aquamarine;
+    font-size: larger;
+
+}
+.price:hover{
+    box-shadow: 0 10px 10px 0 bisque;
+}
+.btn{
+    cursor: pointer;
+    font-size: large;
+    width: 40%;
+    border-radius: 20px;
+
+}
+li{
+    padding: 20px;
+    border-bottom: 2px solid bisque;
+    margin: 10px;
+}
